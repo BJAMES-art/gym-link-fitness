@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gym-Link Fitness</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <h2 class="logo">GYM-LINK <span>Fitness</span></h2>
+        <div class="quote-container">
+          <span id="quote"></span>
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="#Acceuil">Acceuil</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#tarifs">Tarifs</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>TRANSFORME TON CORPS, <span>RENFORCE TON ESPRIT</span></h1>
+        <p>
+          Bienvenue chez Gym-Link Fitness. Un espace moderne pour la
+          musculation, le fitness et le bien-être.
+        </p>
+        <a href="#" class="btn">A propos de la salle</a>
+        <marquee class="hero-ticker" scrollamount="6">
+          NO PAIN NO GAIN . PUSH YOUR LIMITS . TRAIN HARD . STRONGER EVERY DAY .
+          DISCIPLINE BUILDS CHAMPIONS . NEVER QUIT . NO PAIN NO GAIN . PUSH YOUR
+          LIMITS . TRAIN HARD . STRONGER EVERY DAY . DISCIPLINE BUILDS CHAMPIONS . NEVER QUIT .
+          NO PAIN NO GAIN . PUSH YOUR LIMITS . TRAIN HARD . STRONGER EVERY DAY .
+          DISCIPLINE BUILDS CHAMPIONS . NEVER QUIT .
+          NO PAIN NO GAIN . PUSH YOUR LIMITS . TRAIN HARD . STRONGER EVERY DAY .
+          DISCIPLINE BUILDS CHAMPIONS . NEVER QUIT .
+          NO PAIN NO GAIN . PUSH YOUR LIMITS . TRAIN HARD . STRONGER EVERY DAY .
+          DISCIPLINE BUILDS CHAMPIONS . NEVER QUIT .
+          NO PAIN NO GAIN . PUSH YOUR LIMITS . TRAIN HARD . STRONGER EVERY DAY .
+          DISCIPLINE BUILDS CHAMPIONS . NEVER QUIT .
+          NO PAIN NO GAIN . PUSH YOUR LIMITS . TRAIN HARD . STRONGER EVERY DAY .
+          DISCIPLINE BUILDS CHAMPIONS . NEVER QUIT .
+        </marquee>
+      </div>
+    </section>
+    <section class="services">
+      <h2>Nos Services</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Musculation</h3>
+          <p>Machines modernes et espace complet pour développer ta force.</p>
+        </div>
+        <div class="card">
+          <h3>Cardio Training</h3>
+          <p>vélos et autres équipements pour améliorer ton endurance.</p>
+        </div>
+        <div class="card">
+          <h3>Coaching</h3>
+          <p>Coach professionnel pour t'aider à atteindre tes objectifs.</p>
+        </div>
+      </div>
+    </section>
+    <section class="pricing">
+      <h2>Nos Tarifs</h2>
+      <div class="price-cards">
+        <div class="price">
+          <h3>Journalier</h3>
+          <p class="amount">5 000 Fbu/ jour</p>
+          <p>Accès salle</p>
+          <p></p>
+        </div>
+        <div class="price premium">
+          <h3>Abonnement</h3>
+          <p class="amount">55 000 Fbu/ mois</p>
+          <p>Accès total</p>
+          <p>Coaching</p>
+          <p>Meilleurs resultats</p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>© 2026 Gym-Link Fitness</p>
+    </footer>
+    <script>
+      const quotes = [
+        "< NO PAIN NO GAIN >",
+        "< PUSH YOUR LIMITS >",
+        " < STRONGER EVERY DAY >",
+        "< TRAIN HARD STAY HUMBLE >",
+        "< DISCIPLINE BUILDS CHAMPIONS >",
+        "< MAKE YOUR BODY PROUD >",
+      ];
+      let index = 0;
+      const quoteElement = document.getElementById("quote");
+      function changeQuote() {
+        quoteElement.classList.remove("show");
+        setTimeout(() => {
+          quoteElement.textContent = quotes[index];
+          quoteElement.classList.add("show");
+          index++;
+          if (index >= quotes.length) {
+            index = 0;
+          }
+        }, 400);
+      }
+      changeQuote();
+      setInterval(changeQuote, 4000);
+    </script>
+  </body>
+</html>

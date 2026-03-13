@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #0a0a0a;
+  color: white;
+}
+
+/* NAVBAR */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  background: #111;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  color: white;
+  font-weight: 800;
+}
+.logo span {
+  color: #ff3c00;
+}
+.quote-container {
+  flex: 1;
+  text-align: center;
+  font-weight: 600;
+  color: #f9b233;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+#quote {
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-left: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #f9b233;
+}
+
+/* HERO */
+
+.hero {
+  height: 90vh;
+  background: url("https://images.unsplash.com/photo-1599058917765-a780eda07a3e");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  padding-left: 8%;
+  position: relative;
+}
+
+.hero-content {
+  max-width: 500px;
+}
+
+.hero h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-style: oblique;
+}
+
+.hero h1 span {
+  color: #ff3c00;
+  font-style: oblique;
+}
+
+.hero p {
+  margin-bottom: 25px;
+  /* color: #ddd; */
+  color: black;
+  font-size: medium;
+  font-weight: bolder;
+}
+
+.btn {
+  background: #f9b233;
+  color: black;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 30px;
+  transition: 0.3s;
+  bottom: 60%;
+}
+
+.btn:hover {
+  background: #ddd;
+}
+
+.hero-ticker{
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  width: 100%;
+  color: #f9b233;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 14px;
+  display: none;
+}
+
+
+/* SERVICES */
+
+.services {
+  padding: 80px 8%;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+
+.cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.card {
+  background: #111;
+  padding: 30px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  background: #1b1b1b;
+}
+
+.card h3 {
+  margin-bottom: 15px;
+  color: #ff3c00;
+}
+
+
+/* PRICING */
+
+.pricing {
+  padding: 80px 8%;
+  text-align: center;
+  background: #111;
+}
+
+.price-cards {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.price {
+  background: black;
+  padding: 30px;
+  border-radius: 10px;
+  width: 260px;
+}
+
+.price .amount {
+  font-size: 28px;
+  margin: 15px 0;
+  color: #ff3c00;
+}
+
+.premium {
+  border: 2px solid #ff3c00;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: black;
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .quote-container {
+    display: none;
+  }
+
+  .hero-ticker {
+    display: block;
+  }
+}
