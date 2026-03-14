@@ -116,7 +116,7 @@ body {
   background: #ddd;
 }
 
-.hero-ticker{
+.hero-ticker {
   position: absolute;
   bottom: 50px;
   left: 0;
@@ -127,7 +127,6 @@ body {
   font-size: 14px;
   display: none;
 }
-
 
 /* SERVICES */
 
@@ -163,7 +162,6 @@ body {
   margin-bottom: 15px;
   color: #ff3c00;
 }
-
 
 /* PRICING */
 
@@ -206,6 +204,62 @@ footer {
   margin-top: 50px;
 }
 
+
+/* === RESPONSIVE GLOBAL === */
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 15px 5%;
+  }
+
+  .hero {
+    padding-left: 5%;
+  }
+
+  .hero h1 {
+    font-size: 45px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .services {
+    padding: 60px 5%;
+  }
+
+  .services h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+
+  .cards {
+    gap: 20px;
+  }
+
+  .card {
+    padding: 25px;
+  }
+
+  .pricing {
+    padding: 60px 5%;
+  }
+
+  .price-cards {
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .price {
+    width: 220px;
+    padding: 25px;
+  }
+
+  .price .amount {
+    font-size: 24px;
+  }
+}
+
 @media (max-width: 768px) {
   .quote-container {
     display: none;
@@ -213,5 +267,145 @@ footer {
 
   .hero-ticker {
     display: block;
+  }
+  /* NAVBAR */
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 5%;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+
+  /* HERO */
+  .hero {
+    height: 80vh;
+    padding-left: 5%;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .hero h1 {
+    font-size: 35px;
+  }
+
+  .hero p {
+    font-size: 15px;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .hero-ticker {
+    font-size: 12px;
+    bottom: 30px;
+  }
+
+  /* SERVICES */
+  .cards {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    max-width: 350px;
+  }
+
+  .services h2 {
+    font-size: 28px;
+  }
+
+  /* PRICING */
+  .price-cards {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .price {
+    width: 90%;
+    max-width: 350px;
+    padding: 25px;
+  }
+
+  .price h3,
+  .price .amount {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .quote-container {
+    display: none;
+  }
+
+  .hero-ticker {
+    display: block;
+  }
+  /* NAVBAR */
+  .logo {
+    font-size: 18px;
+  }
+
+  .nav-links {
+    width: 100%;
+  }
+
+  .nav-links li {
+    margin: 8px 0;
+  }
+
+  /* HERO */
+  .hero {
+    height: 70vh;
+    padding-left: 5%;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .btn {
+    padding: 8px 15px;
+    font-size: 13px;
+  }
+
+  .hero-ticker {
+    font-size: 11px;
+  }
+
+  /* SERVICES */
+  .services h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  /* PRICING */
+  .price h3 {
+    font-size: 18px;
+  }
+
+  .price .amount {
+    font-size: 22px;
   }
 }
