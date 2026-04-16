@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #0a0a0a;
+  color: white;
+  font-weight: bold;
+}
+
+/* NAVBAR */
+.navbar {
+  padding: 12px 20px;
+  background: transparent;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.nav-link i {
+  color: #ff3c00;
+}
+
+.nav-link:hover {
+  opacity: 0.7;
+}
+
+/* MENU BURGER */
+.menu-burger {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+  z-index: 11;
+}
+
+/* SIDEBAR */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 320px;
+  height: 100%;
+  background: white;
+  padding: 20px;
+  transition: 0.4s ease;
+  z-index: 1000;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Active (ouvre le menu) */
+.sidebar.active {
+  right: 0;
+}
+
+/* Bouton fermer */
+.close-btn {
+  font-size: 30px;
+  cursor: pointer;
+  text-align: right;
+  color: black;
+}
+
+/* MENU LIST */
+.sidebar ul {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.sidebar ul li a {
+  padding: 15px 0;
+  border-bottom: 1px dotted black;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  color: black;
+}
+
+.sidebar ul li.active {
+  border-left: 4px solid #ff3c00;
+  padding-left: 10px;
+}
+
+/* BAS */
+.bottom {
+  margin-top: 40px;
+}
+
+.bottom a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.bottom p {
+  margin: 15px 0;
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+}
+
+.bottom i {
+  color: #ff3c00;
+}
+
+.langue {
+  position: relative;
+  cursor: pointer;
+}
+
+.langue ul {
+  left: 0;
+  background: #222;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 120px;
+  border-radius: 5px;
+}
+
+.langue ul li {
+  padding: 8px;
+  color: white;
+}
+
+.langue ul li:hover {
+  background: orange;
+}
+
+.hidden {
+  display: none;
+}
+
+/* PRICING */
+.pricing {
+  padding: 70px 8%;
+  text-align: center;
+  background: #111;
+}
+
+.pricing h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.price-cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap; /* 🔥 important */
+  margin-top: 30px;
+}
+
+.price {
+  background: black;
+  padding: 25px;
+  border-radius: 12px;
+  width: 260px;
+  transition: 0.3s;
+}
+
+.price:hover {
+  transform: translateY(-8px);
+  background: #1a1a1a;
+}
+
+.price h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.price .amount {
+  font-size: 26px;
+  margin: 12px 0;
+  color: #ff3c00;
+}
+
+/* PLAN PREMIUM */
+.premium {
+  border: 2px solid #ff3c00;
+  transform: scale(1.05);
+}
+
+/* CONTACT */
+.contact {
+  padding: 70px 8%;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+/* SOCIAL */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.social-links a {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 22px;
+  color: white;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  transform: translateY(-6px) scale(1.1);
+}
+
+/* Couleurs */
+.social-links a:nth-child(1) {
+  background: #25d366;
+}
+.social-links a:nth-child(2) {
+  background: #e1306c;
+}
+.social-links a:nth-child(3) {
+  background: #1877f2;
+}
+.social-links a:nth-child(4) {
+  background: #0088cc;
+}
+.social-links a:nth-child(5) {
+  background: #000;
+}
+.social-links a:nth-child(6) {
+  background: #ff0050;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 25px;
+  background: black;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+/* ================= RESPONSIVE ================= */
+
+/* TABLETTE */
+@media (max-width: 992px) {
+  .pricing {
+    padding: 60px 5%;
+  }
+
+  .pricing h2 {
+    font-size: 28px;
+  }
+
+  .price {
+    width: 220px;
+    padding: 22px;
+  }
+
+  .price .amount {
+    font-size: 24px;
+  }
+
+  .contact h2 {
+    font-size: 26px;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 576px) {
+  .pricing {
+    padding: 50px 15px;
+  }
+
+  .price-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .price {
+    width: 90%;
+    max-width: 320px;
+  }
+
+  .pricing h2 {
+    font-size: 26px;
+  }
+
+  .contact h2 {
+    font-size: 22px;
+  }
+
+  .social-links a {
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+  }
+}
+
+/* PETITS MOBILES */
+@media (max-width: 480px) {
+  .price h3 {
+    font-size: 18px;
+  }
+
+  .price .amount {
+    font-size: 22px;
+  }
+}

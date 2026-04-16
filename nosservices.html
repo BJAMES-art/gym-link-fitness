@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gym-Link Fitness</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Services</title>
+    <link rel="stylesheet" href="stylenosserv.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
@@ -14,23 +14,13 @@
       rel="stylesheet"
     />
   </head>
-
   <body>
     <header>
       <nav class="navbar">
-        <h2 class="logo">GYM-LINK <br /><span>Fitness</span></h2>
-
-        <div class="quote-container">
-          <span id="quote"></span>
-        </div>
-
-        <ul class="nav-links">
-          <li><a href="index.html" data-key="nav_accueil">Accueil</a></li>
-          <li><a href="#services" data-key="nav_services">Services</a></li>
-          <li><a href="#tarifs" data-key="nav_tarifs">Tarifs</a></li>
-          <li><a href="#contact" data-key="nav_contact">Contact</a></li>
-        </ul>
-
+        <a href="index.html" class="nav-link">
+        <i class="fa-solid fa-arrow-left"></i>
+        <span data-key="trnavlink">RETOUR</span></a
+      >
         <div class="menu-burger">
           <i class="fas fa-bars" id="menu-btn"></i>
         </div>
@@ -75,38 +65,8 @@
       </div>
     </header>
 
-    <!-- HERO -->
-    <section class="hero">
-      <div class="hero-content">
-        <h1 data-key="hero_title">
-          TRANSFORME TON CORPS, <span>RENFORCE TON ESPRIT</span>
-        </h1>
-
-        <p data-key="hero_text">
-          Bienvenue chez Gym-Link Fitness. Un espace moderne pour la
-          musculation, le fitness et le bien-être.
-        </p>
-
-        <div class="address">
-          <i class="fas fa-map-marker-alt"></i>
-          <span data-key="location">Bujumbura, Burundi - Gihosha</span>
-        </div>
-
-        <a href="A propos.html" class="btn" data-key="about_btn">
-          A propos de la salle
-        </a>
-
-        <marquee class="hero-ticker" scrollamount="6">
-          NO PAIN NO GAIN . PUSH YOUR LIMITS . TRAIN HARD . STRONGER EVERY DAY .
-          DISCIPLINE BUILDS CHAMPIONS . NEVER QUIT .
-        </marquee>
-      </div>
-    </section>
-
-    <!-- SERVICES -->
     <section class="services" id="services">
       <h2 data-key="services_title">Nos Services</h2>
-
       <div class="cards">
         <div class="card">
           <h3 data-key="musculation">Musculation</h3>
@@ -114,14 +74,12 @@
             Machines modernes et espace complet pour développer ta force.
           </p>
         </div>
-
         <div class="card">
           <h3 data-key="cardio">Cardio Training</h3>
           <p data-key="cardio_desc">
             vélos et autres équipements pour améliorer ton endurance.
           </p>
         </div>
-
         <div class="card">
           <h3 data-key="coaching">Coaching</h3>
           <p data-key="coaching_desc">
@@ -130,29 +88,6 @@
         </div>
       </div>
     </section>
-
-    <!-- PRICING -->
-    <section class="pricing" id="tarifs">
-      <h2 data-key="pricing_title">Nos Tarifs</h2>
-
-      <div class="price-cards">
-        <div class="price">
-          <h3 data-key="daily">Journalier</h3>
-          <p class="amount" data-key="daily_price">5 000 Fbu /jour</p>
-          <p data-key="daily_access">Accès salle</p>
-        </div>
-
-        <div class="price premium">
-          <h3 data-key="monthly">Mensuel</h3>
-          <p class="amount" data-key="monthly_price">55 000 Fbu /mois</p>
-          <p data-key="monthly_access">Accès total</p>
-          <p data-key="monthly_coaching">Coaching</p>
-          <p data-key="monthly_result">Meilleurs resultats</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
     <section class="contact" id="contact">
       <h2 data-key="contact_title">Contactez-nous</h2>
 
@@ -163,29 +98,27 @@
           <i class="fab fa-whatsapp"></i>
         </a>
 
-        <a href="#" target="_blank">
+        <a href="https://instagram.com/TON_COMPTE" target="_blank">
           <i class="fab fa-instagram"></i>
         </a>
 
-        <a href="#" target="_blank">
+        <a href="https://facebook.com/TON_COMPTE" target="_blank">
           <i class="fab fa-facebook-f"></i>
         </a>
 
-        <a href="#" target="_blank">
+        <a href="https://t.me/TON_COMPTE" target="_blank">
           <i class="fab fa-telegram"></i>
         </a>
 
-        <a href="#" target="_blank">
+        <a href="https://twitter.com/TON_COMPTE" target="_blank">
           <i class="fab fa-x-twitter"></i>
         </a>
 
-        <a href="#" target="_blank">
+        <a href="https://tiktok.com/@TON_COMPTE" target="_blank">
           <i class="fab fa-tiktok"></i>
         </a>
       </div>
     </section>
-
-    <!-- FOOTER -->
     <footer>
       <p data-key="footer">© 2026 Gym-Link Fitness. Tout droit reservés</p>
     </footer>

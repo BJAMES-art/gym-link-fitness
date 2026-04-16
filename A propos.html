@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>À propos</title>
+    <link rel="stylesheet" href="styleApp.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="index.html" class="nav-link">
+        <i class="fa-solid fa-arrow-left"></i>
+        <span data-key="trnavlink">RETOUR</span></a
+      >
+      <!-- BOUTON MENU -->
+      <div class="menu-burger">
+        <i class="fas fa-bars" id="menu-btn"></i>
+      </div>
+    </nav>
+    <!-- SIDEBAR -->
+    <div class="sidebar" id="sidebar">
+      <div class="close-btn" id="close-btn">&times;</div>
+
+      <ul>
+        <li>
+          <a href="nosservices.html" data-key="tr-Services">Nos Services</a>
+        </li>
+        <li><a href="tarifs.html" data-key="tr-Tarifs">Tarifs</a></li>
+        <li><a href="contact.html" data-key="tr-Contact">Contact</a></li>
+        <li class="active">
+          <a href="conseil&entr.html" data-key="tr-entr&cons">
+            Entraînements & conseils <span>→</span>
+          </a>
+        </li>
+      </ul>
+
+      <div class="bottom">
+        <a href="serviceclient.html" data-key="service_client">
+          <i class="fas fa-info-circle"></i>Service client
+        </a>
+
+        <div id="google_translate_element">
+          <div class="langue">
+            <p onclick="toggleMenu()">
+              <span id="current-lang">Français</span>
+              <i class="fas fa-chevron-down"></i>
+            </p>
+
+            <ul id="lang-menu" class="hidden">
+              <li onclick="changeLang('fr')">Français</li>
+              <li onclick="changeLang('en')">English</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1 data-key="tr-heroh1">
+          À PROPOS DE <br />
+          GYM-LINK FITNESS
+        </h1>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="about-content">
+        <h2 data-key="trhero-h2-1">UNE FORME PARFAITE</h2>
+        <p data-key="trhero-p1">
+          En forme. En meilleure forme. En forme parfaite. Nous sommes toujours
+          plus nombreux à trouver important de nous sentir bien dans notre peau.
+          Faire du sport aide à être en forme et à le rester. Le fitness est
+          très populaire et, chez GYM-LINK Fitness, nous mettons tout en œuvre
+          pour que le sport en club soit encore plus agréable et facile pour
+          vous.
+        </p>
+        <h2 data-key="trhero-h2-2">GYM-LINK FITNESS VOUS AIDE !</h2>
+        <p data-key="trhero-p2">
+          Chez Gym-Link Fitness, faire du sport en toute autonomie est
+          essentiel. Cela ne veut biensur pas pour autant dire que vous devez
+          vous debrouiller tout seul. Nous mettons à votre disposition
+          différents programmes d'entrainement qui vous aiderons à atteindre
+          votre objectif. Les programmes sont basés sur differents objectifs.
+        </p>
+      </div>
+    </section>
+    <section class="contact">
+      <h2 data-key="contact_title">Contactez-nous</h2>
+
+      <p data-key="social_text">Rejoignez-nous sur nos réseaux sociaux</p>
+
+      <div class="social-links">
+        <a href="https://wa.me/25779116117" target="_blank">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+
+        <a href="https://instagram.com/TON_COMPTE" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="https://facebook.com/TON_COMPTE" target="_blank">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+
+        <a href="https://t.me/TON_COMPTE" target="_blank">
+          <i class="fab fa-telegram"></i>
+        </a>
+
+        <a href="https://twitter.com/TON_COMPTE" target="_blank">
+          <i class="fab fa-x-twitter"></i>
+        </a>
+
+        <a href="https://tiktok.com/@TON_COMPTE" target="_blank">
+          <i class="fab fa-tiktok"></i>
+        </a>
+      </div>
+    </section>
+    <footer>
+      <p data-key="footer">© 2026 Gym-Link Fitness. Tout droit reservés</p>
+    </footer>
+    <script src="translate.js"></script>
+  </body>
+</html>

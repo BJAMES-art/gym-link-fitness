@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Service Client</title>
+    <link rel="stylesheet" href="svclient.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <a href="index.html" class="nav-link">
+        <i class="fa-solid fa-arrow-left"></i>
+        <span data-key="trnavlink">RETOUR</span></a
+      >
+
+      <div class="menu-burger">
+        <i class="fas fa-bars" id="menu-btn"></i>
+      </div>
+    </nav>
+
+    <!-- SIDEBAR -->
+    <!-- SIDEBAR -->
+    <div class="sidebar" id="sidebar">
+      <div class="close-btn" id="close-btn">&times;</div>
+
+      <ul>
+        <li>
+          <a href="nosservices.html" data-key="tr-Services">Nos Services</a>
+        </li>
+        <li><a href="tarifs.html" data-key="tr-Tarifs">Tarifs</a></li>
+        <li><a href="contact.html" data-key="tr-Contact">Contact</a></li>
+        <li class="active">
+          <a href="conseil&entr.html" data-key="tr-entr&cons">
+            Entraînements & conseils <span>→</span>
+          </a>
+        </li>
+      </ul>
+
+      <div class="bottom">
+        <a href="serviceclient.html" data-key="service_client">
+          <i class="fas fa-info-circle"></i>Service client
+        </a>
+
+        <div id="google_translate_element">
+          <div class="langue">
+            <p onclick="toggleMenu()">
+              <span id="current-lang">Français</span>
+              <i class="fas fa-chevron-down"></i>
+            </p>
+
+            <ul id="lang-menu" class="hidden">
+              <li onclick="changeLang('fr')">Français</li>
+              <li onclick="changeLang('en')">English</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero">
+      <h1 data-key="sc_title">
+        COMMENT <br />
+        POUVONS-NOUS <br />
+        VOUS AIDER <i class="fa-solid fa-question"></i>
+      </h1>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+      <h2 data-key="faq_title">LES QUESTIONS LES PLUS COURANTES</h2>
+
+      <div class="faq-item">
+        <div class="faq-question" data-key="faq_q1">
+          Comment s'inscrire à la salle ?
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer" data-key="faq_a1">
+          Il suffit de venir à la salle ou de nous contacter via WhatsApp pour
+          finaliser votre inscription.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question" data-key="faq_q2">
+          Quels sont les horaires d’ouverture ?
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer" data-key="faq_a2">
+          Nous sommes ouverts tous les jours de 6h à 22h.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question" data-key="faq_q3">
+          Le coaching est-il inclus ?
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer" data-key="faq_a3">
+          Oui, le coaching est inclus dans l’abonnement mensuel premium.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question" data-key="faq_q4">
+          Puis-je payer par mobile money ?
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer" data-key="faq_a4">
+          <!-- Oui, nous acceptons les paiements mobile money et en espèces. -->
+        </div>
+      </div>
+      <p class="faq-intro" data-key="sc_intro">
+        <!-- Notre équipe est là pour vous accompagner. Consultez notre FAQ ou
+        contactez-nous directement via nos réseaux sociaux ci-dessous. -->
+      </p>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact">
+      <h2 data-key="contact_title">Contactez-nous</h2>
+
+      <p data-key="social_text">Rejoignez-nous sur nos réseaux sociaux</p>
+
+      <div class="social-links">
+        <a href="https://wa.me/25779116117" target="_blank">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+
+        <a href="https://instagram.com/TON_COMPTE" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="https://facebook.com/TON_COMPTE" target="_blank">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+
+        <a href="https://t.me/TON_COMPTE" target="_blank">
+          <i class="fab fa-telegram"></i>
+        </a>
+
+        <a href="https://twitter.com/TON_COMPTE" target="_blank">
+          <i class="fab fa-x-twitter"></i>
+        </a>
+
+        <a href="https://tiktok.com/@TON_COMPTE" target="_blank">
+          <i class="fab fa-tiktok"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p data-key="footer">© 2026 Gym-Link Fitness. Tout droit reservés</p>
+    </footer>
+    <script src="translate.js"></script>
+  </body>
+</html>

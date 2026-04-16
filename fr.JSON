@@ -1,0 +1,94 @@
+{
+  "nav_accueil": "Accueil",
+  "nav_services": "Services",
+  "nav_tarifs": "Tarifs",
+  "nav_contact": "Contact",
+
+  
+  "tr-Services": "Nos services",
+  "tr-Tarifs": "Tarifs",
+  "tr-Contat": "Contact",
+  "tr-entr&cons": "Entrainnement & conseils",
+  "service_client": "Service client",
+
+  "hero_title": "TRANSFORME TON CORPS, <span>RENFORCE TON ESPRIT</span>",
+  "hero_text": "Bienvenue chez Gym-Link Fitness. Un espace moderne pour la musculation, le fitness et le bien-être.",
+  "location": "Bujumbura, Burundi - Gihosha",
+  "about_btn": "A propos de la salle",
+
+  "services_title": "Nos Services",
+
+  "musculation": "Musculation",
+  "musculation_desc": "Machines modernes et espace complet pour développer ta force.",
+
+  "cardio": "Cardio Training",
+  "cardio_desc": "vélos et autres équipements pour améliorer ton endurance.",
+
+  "coaching": "Coaching",
+  "coaching_desc": "Coach professionnel pour t'aider à atteindre tes objectifs.",
+
+  "pricing_title": "Nos Tarifs",
+
+  "daily": "Journalier",
+  "daily_price": "5 000 Fbu /jour",
+  "daily_access": "Accès salle",
+
+  "monthly": "Mensuel",
+  "monthly_price": "55 000 Fbu /mois",
+  "monthly_access": "Accès total",
+  "monthly_coaching": "Coaching",
+  "monthly_result": "Meilleurs resultats",
+
+  "contact_title": "Contactez-nous",
+  "social_text": "Rejoignez-nous sur nos réseaux sociaux",
+
+  "footer": "© 2026 Gym-Link Fitness. Tout droit reservés",
+
+
+
+
+
+
+  
+  "trnavlink":"RETOUR",
+
+  "tr-heroh1": "A PROPOS DE<br/> GYM-LINK FITNESS",
+  "trhero-h2-1": "UNE FORME PARFAITE",
+  "trhero-p1": "En forme. En meilleur forme. En forme parfaite. Nous sommes toujours plus nombreux a trouver important de nous sentire bien dans notre peau. Faire du sport aide à être en forme et à le rester. Le fitness est très populaire et, chez GYM-LINK Fitness, nous mettons tout en œuvre pour que le sport en club soit encore plus agréable et facile pour vous. ",
+  "trhero-h2-2": "GYM-LINK FITNESS VOUS AIDE !",
+  "trhero-p2": "Chez Gym-Link Fitness, faire du sport en toute autonomie est essentiel. Cela ne veut biensur pas pour autant dire que vous devez vous debrouiller tout seul. Nous mettons à votre disposition  différents programmes d'entrainement qui vous aiderons à atteindre votre objectif. Les programmes sont basés sur differents objectifs.",
+
+
+
+
+  "trtraining-h2":"Entraînement en salle",
+  "trtraining-p1":" L’entraînement en salle de sport est l’un des moyens les plus  efficaces pour améliorer sa condition physique. Il permet de travailler l’ensemble du corps grâce à des exercices variés comme la musculation, le cardio et les entraînements fonctionnels.",
+  "trtraining-p2":"En salle, vous avez accès à des équipements professionnels qui facilitent la progression. Les machines guidées sont idéales pour les débutants, tandis que les poids libres permettent de développer la force et la coordination.",
+  "trtraining-p3":"Un bon programme d’entraînement doit inclure un échauffement, une phase de travail ciblé (force ou endurance) et une récupération. La régularité est la clé pour obtenir des résultats durables.",
+  "trtraining-p4":"Enfin, il est important d’adapter les exercices à votre niveau et à  vos objectifs, que ce soit la perte de poids, la prise de masse ou simplement le maintien d’une bonne santé.",
+  "tradvice-h2":"Conseils & Nutrition",
+  "tradvice-p1":"La nutrition joue un rôle essentiel dans la réussite de vos objectifs sportifs. Une alimentation équilibrée permet de fournir l’énergie  nécessaire à vos entraînements et favorise une meilleure récupération.",
+  "tradvice-p2":"Il est recommandé de consommer des protéines pour la construction musculaire, des glucides pour l’énergie, et des lipides pour le bon fonctionnement de l’organisme. L’hydratation est également primordiale pour maintenir de bonnes performances.",
+  "tradvice-p3":"En plus de la nutrition, le repos est un facteur clé. Le corps a besoin de récupérer après l’effort pour progresser efficacement et éviter les blessures.",
+  "tradvice-p4":"Adopter un mode de vie sain, avec un bon équilibre entre sport, alimentation et sommeil, est la meilleure stratégie pour atteindre vos objectifs sur le long terme.",
+
+
+
+
+  "sc_title": "COMMENT <br /> POUVONS-NOUS <br /> VOUS AIDER <i class=\"fa-solid fa-question\"></i>",
+  "sc_intro": "Notre équipe est là pour vous accompagner. Consultez notre FAQ ou contactez-nous directement via nos réseaux sociaux ci-dessous.",
+
+  "faq_title": "LES QUESTIONS LES PLUS COURANTES",
+
+  "faq_q1": "Comment s'inscrire à la salle ? <i class=\"fas fa-chevron-down\"></i>",
+  "faq_a1": "Il suffit de venir à la salle ou de nous contacter via WhatsApp pour finaliser votre inscription.",
+
+  "faq_q2": "Quels sont les horaires d’ouverture ? <i class=\"fas fa-chevron-down\"></i>",
+  "faq_a2": "Nous sommes ouverts tous les jours de 6h à 22h.",
+
+  "faq_q3": "Le coaching est-il inclus ? <i class=\"fas fa-chevron-down\"></i>",
+  "faq_a3": "Oui, il y as bien un coach disponible pour mieux vous aider a atteindre vos objectifs.",
+
+  "faq_q4": "Quels sont les differents moyens de payements ? <i class=\"fas fa-chevron-down\"></i>",
+  "faq_a4": "Pour le moment, le payement se fait sur place au comptant avec la monnaie local (FBU)"
+}

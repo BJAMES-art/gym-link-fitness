@@ -1,0 +1,84 @@
+{
+  "nav_accueil": "Home",
+  "nav_services": "Services",
+  "nav_tarifs": "Pricing",
+  "nav_contact": "Contact",
+
+  "tr-Services": "Our Service",
+  "tr-Tarifs": "Pricing",
+  "tr-Contat": "Contact",
+  "tr-entr&cons": "Training & device",
+  "service_client": "Customer Service",
+
+  "hero_title": "TRANSFORM YOUR BODY, <span>STRENGTHEN YOUR MIND</span>",
+  "hero_text": "Welcome to Gym-Link Fitness. A modern space for bodybuilding, fitness, and well-being.",
+  "location": "Bujumbura, Burundi - Gihosha",
+  "about_btn": "About the gym",
+
+  "services_title": "Our Services",
+
+  "musculation": "Bodybuilding",
+  "musculation_desc": "Modern machines and a complete space to build your strength.",
+
+  "cardio": "Cardio Training",
+  "cardio_desc": "Bikes and other equipment to improve your endurance.",
+
+  "coaching": "Coaching",
+  "coaching_desc": "Professional coach to help you reach your goals.",
+
+  "pricing_title": "Our Pricing",
+
+  "daily": "Daily Pass",
+  "daily_price": "5,000 Fbu /day",
+  "daily_access": "Gym access",
+
+  "monthly": "Monthly Pass",
+  "monthly_price": "55,000 Fbu /month",
+  "monthly_access": "Full access",
+  "monthly_coaching": "Coaching",
+  "monthly_result": "Best results",
+
+  "contact_title": "Contact Us",
+  "social_text": "Join us on social media",
+
+  "footer": "© 2026 Gym-Link Fitness. All rights reserved",
+
+  "trnavlink": "BACK",
+
+  "tr-heroh1": "ABOUT<br/> GYM-LINK FITNESS",
+  "trhero-h2-1": "A PERFECT SHAPE",
+  "trhero-p1": "Fit. Fitter. Perfectly fit. More and more people consider it important to feel good in their own skin. sport helps you stay in shape and maintain it. Fitness is very popular and, at GYM-LINK Fitness, we do everything possible to make working out in a gym more enjoyable and easier for you.",
+
+  "trhero-h2-2": "GYM-LINK FITNESS HELPS YOU!",
+  "trhero-p2": "At Gym-Link Fitness, working out independently is essential. Of course, that does not mean you have to manage everything on your own. We provide you with various training programs that will help you achieve your goals. These programs are based on different objectives.",
+
+  "trtraining-h2": "Gym Training",
+  "trtraining-p1": "Training in a gym is one of the most effective ways to improve your physical condition. It allows you to work your entire body through various exercises such as strength training, cardio, and functional workouts.",
+  "trtraining-p2": "In the gym, you have access to professional equipment that makes progress easier. Guided machines are ideal for beginners, while free weights help develop strength and coordination.",
+  "trtraining-p3": "A good training program should include a warm-up, a targeted workout phase (strength or endurance), and recovery. Consistency is the key to achieving lasting results.",
+  "trtraining-p4": "Finally, it is important to adapt exercises to your level and your goals, whether it is weight loss, muscle gain, or simply maintaining good health.",
+
+  "tradvice-h2": "Advice & Nutrition",
+  "tradvice-p1": "Nutrition plays an essential role in achieving your fitness goals. A balanced diet provides the energy needed for your workouts and promotes better recovery.",
+  "tradvice-p2": "It is recommended to consume proteins for muscle building, carbohydrates for energy, and fats for the proper functioning of the body. Hydration is also essential to maintain good performance.",
+  "tradvice-p3": "In addition to nutrition, rest is a key factor. The body needs to recover after effort in order to progress effectively and avoid injuries.",
+  "tradvice-p4": "Adopting a healthy lifestyle, with a good balance between exercise, diet, and sleep, is the best strategy to achieve your long-term goals.",
+
+
+
+  "sc_title": "HOW <br /> CAN WE <br /> HELP YOU <i class=\"fa-solid fa-question\"></i>",
+"sc_intro": "Our team is here to support you. Check out our FAQ or contact us directly through our social media below.",
+  "faq_title": "Frequently Asked Questions",
+
+  "faq_q1": "How to register at the gym? <i class=\"fas fa-chevron-down\"></i>",
+  "faq_a1": "You just need to come to the gym or contact us via WhatsApp to complete your registration.",
+
+  "faq_q2": "What are the opening hours? <i class=\"fas fa-chevron-down\"></i>",
+  "faq_a2": "We are open every day from 6am to 10pm.",
+
+  "faq_q3": "Is coaching included? <i class=\"fas fa-chevron-down\"></i>",
+  "faq_a3": "Yes, there is a coach available to help you better achieve your goals.",
+
+"faq_q4": "What are the different payment methods? <i class=\"fas fa-chevron-down\"></i>",
+"faq_a4": "For now, payment is made on-site in cash using the local currency (FBU)."
+}

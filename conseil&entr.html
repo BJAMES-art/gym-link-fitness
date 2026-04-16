@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conseils & entrainements</title>
+
+    <link rel="stylesheet" href="cons&entr.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <a href="index.html" class="nav-link">
+        <i class="fa-solid fa-arrow-left"></i>
+        <span data-key="trnavlink">RETOUR</span></a
+      >
+      <div class="menu-burger">
+        <i class="fas fa-bars" id="menu-btn"></i>
+      </div>
+    </nav>
+
+    <!-- SIDEBAR -->
+    <div class="sidebar" id="sidebar">
+      <div class="close-btn" id="close-btn">&times;</div>
+
+      <ul>
+        <li>
+          <a href="nosservices.html" data-key="tr-Services">Nos Services</a>
+        </li>
+        <li><a href="tarifs.html" data-key="tr-Tarifs">Tarifs</a></li>
+        <li><a href="contact.html" data-key="tr-Contact">Contact</a></li>
+        <li class="active">
+          <a href="conseil&entr.html" data-key="tr-entr&cons">
+            Entraînements & conseils <span>→</span>
+          </a>
+        </li>
+      </ul>
+
+      <div class="bottom">
+        <a href="serviceclient.html" data-key="service_client">
+          <i class="fas fa-info-circle"></i>Service client
+        </a>
+
+        <div id="google_translate_element">
+          <div class="langue">
+            <p onclick="toggleMenu()">
+              <span id="current-lang">Français</span>
+              <i class="fas fa-chevron-down"></i>
+            </p>
+
+            <ul id="lang-menu" class="hidden">
+              <li onclick="changeLang('fr')">Français</li>
+              <li onclick="changeLang('en')">English</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION ENTRAINEMENT -->
+    <section class="training">
+      <div class="content">
+        <h2 data-key="trtraining-h2">Entraînement en salle</h2>
+
+        <p data-key="trtraining-p1">
+          L’entraînement en salle de sport est l’un des moyens les plus
+          efficaces pour améliorer sa condition physique. Il permet de
+          travailler l’ensemble du corps grâce à des exercices variés comme la
+          musculation, le cardio et les entraînements fonctionnels.
+        </p>
+
+        <p data-key="trtraining-p2">
+          En salle, vous avez accès à des équipements professionnels qui
+          facilitent la progression. Les machines guidées sont idéales pour les
+          débutants, tandis que les poids libres permettent de développer la
+          force et la coordination.
+        </p>
+
+        <p data-key="trtraining-p3">
+          Un bon programme d’entraînement doit inclure un échauffement, une
+          phase de travail ciblé (force ou endurance) et une récupération. La
+          régularité est la clé pour obtenir des résultats durables.
+        </p>
+
+        <p data-key="trtraining-p4">
+          Enfin, il est important d’adapter les exercices à votre niveau et à
+          vos objectifs, que ce soit la perte de poids, la prise de masse ou
+          simplement le maintien d’une bonne santé.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECTION CONSEILS -->
+    <section class="advice">
+      <div class="content">
+        <h2 data-key="tradvice-h2">Conseils & Nutrition</h2>
+
+        <p data-key="tradvice-p1">
+          La nutrition joue un rôle essentiel dans la réussite de vos objectifs
+          sportifs. Une alimentation équilibrée permet de fournir l’énergie
+          nécessaire à vos entraînements et favorise une meilleure récupération.
+        </p>
+
+        <p data-key="tradvice-p2">
+          Il est recommandé de consommer des protéines pour la construction
+          musculaire, des glucides pour l’énergie, et des lipides pour le bon
+          fonctionnement de l’organisme. L’hydratation est également primordiale
+          pour maintenir de bonnes performances.
+        </p>
+
+        <p data-key="tradvice-p3">
+          En plus de la nutrition, le repos est un facteur clé. Le corps a
+          besoin de récupérer après l’effort pour progresser efficacement et
+          éviter les blessures.
+        </p>
+
+        <p data-key="tradvice-p4">
+          Adopter un mode de vie sain, avec un bon équilibre entre sport,
+          alimentation et sommeil, est la meilleure stratégie pour atteindre vos
+          objectifs sur le long terme.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2 data-key="contact_title">Contactez-nous</h2>
+
+      <p data-key="social_text">Rejoignez-nous sur nos réseaux sociaux</p>
+
+      <div class="social-links">
+        <a href="https://wa.me/25779116117" target="_blank">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+
+        <a href="https://instagram.com/TON_COMPTE" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="https://facebook.com/TON_COMPTE" target="_blank">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+
+        <a href="https://t.me/TON_COMPTE" target="_blank">
+          <i class="fab fa-telegram"></i>
+        </a>
+
+        <a href="https://twitter.com/TON_COMPTE" target="_blank">
+          <i class="fab fa-x-twitter"></i>
+        </a>
+
+        <a href="https://tiktok.com/@TON_COMPTE" target="_blank">
+          <i class="fab fa-tiktok"></i>
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <p data-key="footer">© 2026 Gym-Link Fitness. Tous droits réservés</p>
+    </footer>
+    <script src="translate.js"></script>
+  </body>
+</html>
