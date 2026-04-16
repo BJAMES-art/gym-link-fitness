@@ -206,10 +206,12 @@ a{
 }
 
 .hero p {
+
   font-weight: bold;
   background: rgba(0, 0, 0, 0.6);
   padding: 8px 15px;
   border-radius: 20px;
+
 }
 
 /* .hero p :hover{
@@ -655,6 +657,98 @@ footer {
     color: #ff3c00;
     font-size: 16px;
   }
+  .btn {
+    padding: 8px 15px;
+    font-size: 13px;
+  }
+
+  .quote-container {
+    display: none;
+  }
+
+  .hero-ticker {
+    display: block;
+    font-size: 11px;
+  }
+
+  /* SERVICES */
+  .services h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  /* PRICING */
+  .price h3 {
+    font-size: 18px;
+  }
+
+  .price .amount {
+    font-size: 22px;
+  }
+  .cards {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    max-width: 350px;
+  }
+
+  .services h2 {
+    font-size: 28px;
+  }
+
+  /* PRICING */
+  .price-cards {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .price {
+    width: 90%;
+    max-width: 350px;
+    padding: 25px;
+  }
+
+  .price h3,
+  .price .amount {
+    text-align: center;
+  }
+}
+@media (max-width: 480px) {
+  .logo {
+    font-size: 18px;
+  }
+
+  .nav-links {
+    width: 100%;
+  }
+
+  .nav-links li {
+    margin: 8px 0;
+  }
+
+  /* HERO */
+  .hero {
+    height: 70vh;
+    padding-left: 5%;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
   .btn {
     padding: 8px 15px;
     font-size: 13px;
