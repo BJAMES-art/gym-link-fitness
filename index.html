@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gym-Link Fitness</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <h2 class="logo">GYM-LINK <br /><span>Fitness</span></h2>
+        <div class="ticker-wrapper">
+          <svg viewBox="0 0 1000 120" class="ticker-svg">
+            <!-- Trajet -->
+            <path
+              id="ticker-path"
+              d="
+        M 120 60
+        Q 120 20 160 20
+        L 840 20
+        Q 880 20 880 60
+        Q 880 100 840 100
+        L 160 100
+        Q 120 100 120 60
+      "
+              fill="none"
+              stroke="rgba(249,178,51,0.2)"
+              stroke-width="2"
+            />
+
+            <text class="ticker-text">
+              <textPath href="#ticker-path" startOffset="0%">
+                NO PAIN NO GAIN • PUSH YOUR LIMITS • TRAIN HARD • DISCIPLINE
+                BUILDS CHAMPIONS • NEVER QUIT •
+              </textPath>
+            </text>
+          </svg>
+        </div>
+        <div class="menu-burger">
+          <i class="fas fa-bars" id="menu-btn"></i>
+        </div>
+      </nav>
+
+      <!-- SIDEBAR -->
+      <div class="sidebar" id="sidebar">
+        <div class="close-btn" id="close-btn">&times;</div>
+
+        <ul>
+          <li>
+            <a href="nosservices.html" data-key="tr-Services"></a>
+          </li>
+          <li><a href="tarifs.html" data-key="tr-Tarifs"></a></li>
+          <li><a href="contact.html" data-key="tr-Contact"></a></li>
+          <li class="active">
+            <a href="conseil&entr.html" data-key="tr-entr&cons">
+              <span>→</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="bottom">
+          <a href="serviceclient.html">
+            <span data-key="service_client"></span>
+            <i class="fas fa-info-circle"></i>
+          </a>
+
+          <div id="google_translate_element">
+            <div class="langue">
+              <p onclick="toggleMenu()">
+                <span id="current-lang">Français</span>
+                <i class="fas fa-chevron-down"></i>
+              </p>
+
+              <ul id="lang-menu" class="hidden">
+                <li onclick="changeLang('fr')">Français</li>
+                <li onclick="changeLang('en')">English</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1 data-key="hero_title">
+          <span></span>
+        </h1>
+
+        <p data-key="hero_text"></p>
+
+        <div class="address">
+          <i class="fas fa-map-marker-alt"></i>
+          <span data-key="location"></span>
+        </div>
+
+        <a href="A propos.html" class="btn" data-key="about_btn"> </a>
+
+        <marquee class="hero-ticker" scrollamount="6">
+          NO PAIN NO GAIN . PUSH YOUR LIMITS . TRAIN HARD . STRONGER EVERY DAY .
+          DISCIPLINE BUILDS CHAMPIONS . NEVER QUIT .
+        </marquee>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+      <h2 data-key="services_title"></h2>
+
+      <div class="cards">
+        <div class="card">
+          <h3 data-key="musculation"></h3>
+          <p data-key="musculation_desc"></p>
+        </div>
+
+        <div class="card">
+          <h3 data-key="cardio"></h3>
+          <p data-key="cardio_desc"></p>
+        </div>
+
+        <div class="card">
+          <h3 data-key="coaching"></h3>
+          <p data-key="coaching_desc"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="pricing" id="tarifs">
+      <h2 data-key="pricing_title"></h2>
+
+      <div class="price-cards">
+        <div class="price">
+          <h3 data-key="daily"></h3>
+          <p class="amount" data-key="daily_price"></p>
+          <p data-key="daily_access"></p>
+        </div>
+
+        <div class="price premium">
+          <h3 data-key="monthly"></h3>
+          <p class="amount" data-key="monthly_price"></p>
+          <p data-key="monthly_access"></p>
+          <p data-key="monthly_coaching"></p>
+          <p data-key="monthly_result"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <h2 data-key="contact_title"></h2>
+
+      <p data-key="social_text"></p>
+
+      <div class="social-links">
+        <a href="https://wa.me/25779116117" target="_blank">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+
+        <a href="#" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="#" target="_blank">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+
+        <a href="#" target="_blank">
+          <i class="fab fa-telegram"></i>
+        </a>
+
+        <a href="#" target="_blank">
+          <i class="fab fa-x-twitter"></i>
+        </a>
+
+        <a href="#" target="_blank">
+          <i class="fab fa-tiktok"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p data-key="footer"></p>
+    </footer>
+    <script src="translate.js"></script>
+  </body>
+</html>
