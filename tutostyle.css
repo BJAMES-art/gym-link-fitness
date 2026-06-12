@@ -3,12 +3,14 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 
 body {
   background: black;
   color: white;
   font-weight: bold;
+  overflow-x: hidden;
 }
 
 a {
@@ -35,6 +37,7 @@ header {
   gap: 20px;
   overflow: hidden;
   height: 90px;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -283,6 +286,36 @@ footer {
   margin-top: 40px;
 }
 
+/* =========================
+   RESPONSIVITE
+========================= */
+@media screen and (max-width: 1024px) {
+  .navbar {
+    padding: 15px 5%;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .nav-right {
+    gap: 40px;
+  }
+
+  .ticker-wrapper {
+    width: 100%;
+    order: 3;
+    margin-top: 10px;
+  }
+
+  .ticker-svg {
+    width: 100%;
+    height: 60px;
+  }
+
+  .nav-link {
+    font-size: 16px;
+  }
+}
+
 @media (max-width: 768px) {
   /* Masquer le ticker */
   .ticker-wrapper {
@@ -291,23 +324,65 @@ footer {
   .hero-ticker {
     display: block;
   }
-   .navbar {
-    padding: 10px 15px;
-    gap: 20px;
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 15px 5%;
   }
 
   .nav-right {
-    display: flex;
-    flex-direction: row; 
-    align-items: center;
-    gap: 50px;
+    width: 100%;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .logo {
+    font-size: 22px;
+  }
+
+  .ticker-wrapper {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .ticker-svg {
+    height: 50px;
   }
 
   .nav-link {
-    font-size: 18px;
+    font-size: 15px;
+  }
+  .menu-burger {
+    font-size: 28px;
   }
 
-  .menu-burger {
-    font-size: 24px;
+  @media screen and (max-width: 480px) {
+    .navbar {
+      padding: 12px 4%;
+    }
+
+    .nav-right {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+
+    .nav-link {
+      font-size: 14px;
+    }
+
+    .logo {
+      font-size: 20px;
+    }
+
+    .ticker-wrapper {
+      display: none;
+    }
+
+    .menu-burger {
+      font-size: 28px;
+      align-self: flex-end;
+    }
   }
 }
