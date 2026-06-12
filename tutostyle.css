@@ -325,64 +325,55 @@ footer {
     display: block;
   }
   .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-    padding: 15px 5%;
-  }
-
-  .nav-right {
-    width: 100%;
+    display: flex;
     justify-content: space-between;
-    gap: 20px;
+    align-items: center;
+    padding: 15px 5%;
+    height: auto;
   }
 
   .logo {
-    font-size: 22px;
+    font-size: 20px;
+    line-height: 1.2;
   }
 
-  .ticker-wrapper {
-    width: 100%;
-    justify-content: flex-start;
+  /* cacher menu desktop */
+  .nav-right {
+    display: none;
   }
 
-  .ticker-svg {
-    height: 50px;
-  }
-
-  .nav-link {
-    font-size: 15px;
-  }
+  /* burger visible */
   .menu-burger {
+    display: flex;
     font-size: 28px;
   }
+}
 
-  @media screen and (max-width: 480px) {
-    .navbar {
-      padding: 12px 4%;
-    }
+@media screen and (max-width: 480px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    height: auto;
+  }
 
-    .nav-right {
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 10px;
-    }
+  .logo {
+    font-size: 20px;
+    line-height: 1.2;
+  }
 
-    .nav-link {
-      font-size: 14px;
-    }
+  /* cacher menu desktop */
+  .nav-right {
+    display: none;
+  }
 
-    .logo {
-      font-size: 20px;
-    }
-
-    .ticker-wrapper {
-      display: none;
-    }
-
-    .menu-burger {
-      font-size: 28px;
-      align-self: flex-end;
-    }
+  /* burger visible */
+  .menu-burger {
+    display: flex;
+    font-size: 28px;
+  }
+  .ticker-wrapper {
+    display: none;
   }
 }
