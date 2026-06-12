@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Service Client</title>
-    <link rel="stylesheet" href="svclient.css" />
+    <title>Gym-Link Fitness</title>
+    <link rel="stylesheet" href="tutostyle.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
@@ -14,10 +14,8 @@
       rel="stylesheet"
     />
   </head>
-
   <body>
     <header>
-      <!-- NAVBAR -->
       <nav class="navbar">
         <h2 class="logo">GYM-LINK <br /><span>Fitness</span></h2>
         <div class="ticker-wrapper">
@@ -71,13 +69,13 @@
 
         <ul>
           <li>
-            <a href="nosservices.html" data-key="tr-Services">Nos Services</a>
+            <a href="nosservices.html" data-key="tr-Services"></a>
           </li>
-          <li><a href="tarifs.html" data-key="tr-Tarifs">Tarifs</a></li>
-          <li><a href="contact.html" data-key="tr-Contact">Contact</a></li>
+          <li><a href="tarifs.html" data-key="tr-Tarifs"></a></li>
+          <li><a href="contact.html" data-key="tr-cont"></a></li>
           <li class="active">
             <a href="tutoriels.html" data-key="tr-entr&cons">
-              Entraînements & conseils <span>→</span>
+              <span>→</span>
             </a>
           </li>
         </ul>
@@ -104,97 +102,30 @@
         </div>
       </div>
     </header>
-
-    <!-- HERO -->
-    <section class="hero-title">
-      <h1>
-        <span data-key="sc_title1">COMMENT</span>
-        <br />
-        <span data-key="sc_title2">POUVONS-NOUS</span>
-        <br />
-        <span data-key="sc_title3">VOUS AIDER</span>
-        <i class="fa-solid fa-question"></i>
-      </h1>
-    </section>
-
-    <!-- FAQ -->
-    <section class="faq">
-      <div class="faq-content">
-        <h2 data-key="faq_title"></h2>
-
-        <div class="faq-item">
-          <div class="faq-question" data-key="faq_q1">
-            <i class="fas fa-chevron-down"></i>
-          </div>
-          <div class="faq-answer" data-key="faq_a1"></div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-question" data-key="faq_q2">
-            <i class="fas fa-chevron-down"></i>
-          </div>
-          <div class="faq-answer" data-key="faq_a2"></div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-question" data-key="faq_q3">
-            <i class="fas fa-chevron-down"></i>
-          </div>
-          <div class="faq-answer" data-key="faq_a3"></div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-question" data-key="faq_q4">
-            <i class="fas fa-chevron-down"></i>
-          </div>
-          <div class="faq-answer" data-key="faq_a4"></div>
-        </div>
-        <p class="faq-intro" data-key="sc_intro"></p>
-
-        <marquee class="hero-ticker" scrollamount="6">
-          NO PAIN NO GAIN • PUSH YOUR LIMITS • TRAIN HARD • STRONGER EVERY DAY •
-          DISCIPLINE BUILDS CHAMPIONS • NEVER QUIT •
-        </marquee>
+    <section class="hero">
+      <div class="middle-images">
+        <img
+          src="IMAGE/pexels-freestockpro-2837005.jpg"
+          alt="Recette saine"
+          class="img-card img1"
+        />
+        <img
+          src="IMAGE/pexels-nerosable-35787348.jpg"
+          alt="Exercice physique"
+          class="img-card img2"
+        />
       </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section class="contact">
-      <h2 data-key="contact_title">Contactez-nous</h2>
-
-      <p data-key="social_text">Rejoignez-nous sur nos réseaux sociaux</p>
-
-      <div class="social-links">
-        <a href="https://wa.me/25779116117" target="_blank">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-
-        <a href="https://instagram.com/TON_COMPTE" target="_blank">
-          <i class="fab fa-instagram"></i>
-        </a>
-
-        <a href="https://facebook.com/TON_COMPTE" target="_blank">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-
-        <a href="https://t.me/TON_COMPTE" target="_blank">
-          <i class="fab fa-telegram"></i>
-        </a>
-
-        <a href="https://twitter.com/TON_COMPTE" target="_blank">
-          <i class="fab fa-x-twitter"></i>
-        </a>
-
-        <a href="https://tiktok.com/@TON_COMPTE" target="_blank">
-          <i class="fab fa-tiktok"></i>
-        </a>
-      </div>
+      <marquee class="hero-ticker" scrollamount="6">
+        EAT HEALTHY , LIVE BETTER • EAT CLEAN , STAY STRONG • TRAIN HARD ,
+        NOURRISH YOUR BODY • DISCIPLINE BUILDS CHAMPIONS , EVERY BITE COUNT •
+        NEVER QUIT • GO FOR IT •
+      </marquee>
     </section>
 
     <!-- FOOTER -->
-    <footer>
+    <!-- <footer>
       <p data-key="footer">© 2026 Gym-Link Fitness. Tout droit reservés</p>
-    </footer>
-    <script src="translate.js"></script>
+    </footer> -->
   </body>
+  <script src="translate.js"></script>
 </html>
